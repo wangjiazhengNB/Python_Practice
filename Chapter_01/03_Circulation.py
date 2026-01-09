@@ -29,9 +29,25 @@
 # 获得start ~ end之间间隔step的数，不包含step
 
 #案例1 获得1 - 100 间的奇数和
-total = 0
-for i in range(1, 101):
-    if i % 2 == 1:
-        total += i
+# total = 0
+# for i in range(1, 101):
+#     if i % 2 == 1:
+#         total += i
 
-print(total)
+# print(total)
+
+# m = int(input("请输入长方形的长度："))
+# n = int(input("请输入长方形的宽度："))
+
+#end=""每一次输出结尾就输出一个""
+# for i in range(n):
+#     for j in range(m):
+#         print("*", end=" ")
+#     print()
+
+#输出99乘法表
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print(f"{j} * {i} = {j * i}", end = "\t")
+    print()
+
