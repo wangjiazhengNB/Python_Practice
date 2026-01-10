@@ -14,6 +14,7 @@ print(type(10.5))
 print(type(True))
 print(type(None))
 
+
 # 字符串的三种定义方式
 s1 = "hello"
 s2 = 'hello'
