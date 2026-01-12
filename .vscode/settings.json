@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"  // 表示当前工作区（Chapter_04）的路径
+    ]
+}
